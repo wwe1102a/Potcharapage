@@ -1,0 +1,45 @@
+header{
+     background-color:red;
+     height:max-content;
+     font-size: 50px;
+
+}
+
+button{
+    background-color: aqua;
+    font-size: 20px;
+    width: 100%;
+    float: left;
+    
+}
+
+footer{
+     background-color: aqua;
+     height: 10%;
+     margin-top: 80rem;
+
+
+}
+main{
+    text-align: center;
+    
+}
+
+html, body { 
+    height: 100%; /* ให้ html และ body สูงเต็มจอภาพไว้ก่อน */
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+ .wrapper {
+    display: block;
+    min-height: 100%; /* real browsers */
+    height: auto !important; /* real browsers */
+    height: 100%; /* IE6 bug */
+    margin-bottom: -20px; /* กำหนด margin-bottom ให้ติดลบเท่ากับความสูงของ footer */
+ }
+ .footer {
+    height: 20px; /* ความสูงของ footer */
+    display: block;
+    text-align: center;
+ }
